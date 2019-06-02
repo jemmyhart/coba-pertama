@@ -166,10 +166,11 @@ button:focus {
 }
 
 #imagine {
-  color: #303f9f;
+  color: #fff;
   background-image: url("ket.png");
   background-repeat:no-repeat;
   background-position:right bottom;
+  background-color: #303f9f;
 }
 
 .imagine {
