@@ -125,6 +125,34 @@ button:focus {
   padding: 0 10px;
 }
 
+#highlight {
+  width: 100%;
+  /* height: auto; */
+  /* height: 85vh; */
+  background: url(init0.png) no-repeat 50% 50%;
+  background-size: cover;
+  font-family: "Raleway", Helvetica, Arial, "Hiragino Kaku Gothic Pro", sans-serif;
+  color: #303f9f;
+  padding: 60px 40px;
+}
+
+.highlightText {
+  font-size: 50px;
+  text-shadow: 0 0 5px #fff;
+}
+
+.highlightDesc1 {
+  font-size: 25px;  
+  text-shadow: 0 0 5px #fff;
+}
+
+.highlightDesc2 {
+  font-family: "Acme", serif;
+  font-size: 22px;  
+  font-weight: 900;
+  text-shadow: 0 0 5px #fff;
+}
+
 .headerText {
   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-size: 30px;
@@ -138,7 +166,7 @@ button:focus {
 }
 
 #imagine {
-  background-color: #303f9f;
+  color: #303f9f;
   background-image: url("ket.png");
   background-repeat:no-repeat;
   background-position:right bottom;
@@ -146,7 +174,7 @@ button:focus {
 
 .imagine {
   font-family: "Raleway", Helvetica, Arial, "Hiragino Kaku Gothic Pro", sans-serif;
-  color: #fff;
+  opacity: 1;
 }
 
 .animOne {
@@ -216,10 +244,15 @@ button:focus {
 }
 
 .priceIcon {
-  font-size: 120px;
+  font-size: 100px;
 }
 
-.priceText {
+.priceText1 {
+  font-size: 26px;
+  margin-top: -20px;
+}
+
+.priceText2 {
   font-size: 20px;
   font-weight: 500;
   margin-top: -20px;
@@ -254,6 +287,23 @@ button:focus {
 }
 
 @media (max-width:992px) {
+  #highlight {
+    /* height: auto; */
+    padding: 40px 30px;
+  }
+  
+  .highlightText {
+    font-size: 30px;
+  }
+  
+  .highlightDesc1 {
+    font-size: 20px;
+  }
+
+  .headerDesc {
+    padding-left: 30%;
+  }
+
   #imagine {
     background-size: 75%;
   }
@@ -263,18 +313,45 @@ button:focus {
   }
 
   .priceIcon {
-    font-size: 75px;
+    font-size: 70px;
   }
   
-  .priceText {
+  .priceText2 {
     font-size: 20px;
   }
   
-  .priceDesc {
-    font-size: 14px;
-  }
 }
 
 @media (max-width:576px) {
-  
+  #highlight {
+    padding: 30px 15px;
+  }
+
+  .highlightText {
+    font-size: 23px;
+  }
+
+  .highlightDesc1 {
+    font-size: 15px;
+  }
+
+  .highlightDesc2 {
+    font-size: 14px;
+  }
+
+  .headerDesc {
+    padding-left: 5%;
+  }
+
+  .priceIcon {
+    font-size: 50px;
+  }
+
+  .priceText1 {
+    font-size: 20px;
+  }
+
+  .priceText2 {
+    font-size: 16px;
+  }
 }
