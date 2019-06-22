@@ -126,11 +126,6 @@ button:focus {
 }
 
 #highlight {
-  width: 100%;
-  /* height: auto; */
-  /* height: 85vh; */
-  background: url(init0.png) no-repeat 50% 50%;
-  background-size: cover;
   font-family: "Raleway", Helvetica, Arial, "Hiragino Kaku Gothic Pro", sans-serif;
   color: #303f9f;
   padding: 60px 40px;
@@ -147,9 +142,9 @@ button:focus {
 }
 
 .highlightDesc2 {
-  font-family: "Acme", serif;
-  font-size: 22px;  
-  font-weight: 900;
+  font-family: "Raleway", Helvetica, Arial, "Hiragino Kaku Gothic Pro", sans-serif;
+  font-size: 35px;  
+  font-weight: 700;
   text-shadow: 0 0 5px #fff;
 }
 
@@ -248,6 +243,13 @@ button:focus {
   font-size: 100px;
 }
 
+.priceIconText {
+  font-size: 25px;
+  color: #fff;
+  background-color: #303f9f;
+  width: 50%;
+}
+
 .priceText1 {
   font-size: 26px;
   margin-top: -20px;
@@ -298,7 +300,11 @@ button:focus {
   }
   
   .highlightDesc1 {
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  .highlightDesc2 {
+    font-size: 23px;
   }
 
   .headerDesc {
@@ -346,6 +352,13 @@ button:focus {
 
   .priceIcon {
     font-size: 50px;
+  }
+
+  .priceIconText {
+    font-size: 18px;
+    color: #fff;
+    background-color: #303f9f;
+    width: 60%;
   }
 
   .priceText1 {
