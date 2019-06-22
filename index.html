@@ -65,19 +65,44 @@
       </div>
    </nav>
 
-   <div class="container-fluid" id="highlight">
-      <div class="row">
-         <div class="col-9">
-            <p class="highlightText">THE FUTURE IS HERE</p>
-            <p class="highlightDesc1 mb-0">A simple, yet powerful self-service kiosk system</p>
-            <p class="highlightDesc1">Tailored specifically to provide the best ordering experience</p>
-            <p class="highlightDesc2 mb-0 d-sm-none d-md-block" style="color: red">No installation fees</p>
-            <p class="highlightDesc2 mb-0 d-sm-none d-md-block" style="color: red">No maintenance
-               fees
-            </p>
-            <p class="highlightText pb-2 d-sm-none d-md-block" style="color: red">GUARANTEED!</p>
+   <div class="container-fluid text-center" id="highlight">
+      <p class="highlightText mb-0">A Simple, yet Powerful System</p>
+      <p class="highlightDesc1">Tailored specifically to provide the best ordering experience</p>
+      <p class="highlightDesc2" style="color: red">Self-Service Kiosk<i class="fas fa-check px-3"></i></p>
+      <p class="highlightDesc2" style="color: red">Kitchen Display<i class="fas fa-check px-3"></i></p>
+      <p class="highlightDesc2" style="color: red">Mobile App<i class="fas fa-check px-3"></i></p>
+      <p class="highlightDesc2" style="color: red">Web Ordering System<i class="fas fa-check px-3"></i></p>
+   </div>
+
+   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+            <img src="init1.png" class="d-block w-100" alt="...">
+         </div>
+         <div class="carousel-item">
+            <img src="init2.png" class="d-block w-100" alt="...">
+         </div>
+         <div class="carousel-item">
+            <img src="init3.png" class="d-block w-100" alt="...">
+         </div>
+         <div class="carousel-item">
+            <img src="init4.png" class="d-block w-100" alt="...">
          </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+      </a>
    </div>
 
    <div class='container-fluid pt-2 pb-4'>
@@ -125,11 +150,12 @@
    <div class="container text-center" id="weDo">
       <h3>What We Do</h3>
       <h5>These are what we will do for you</h5>
+      <h5 class='text-danger'>NO EXTRA CHARGE</h5>
       <div class="row p-4">
          <div class="col-lg-3 col-md-6 px-4">
             <p class="weDoIcon"><i class="fas fa-tablet-alt"></i></p>
             <p class="weDoText"> Tablets </p>
-            <p class="weDoDesc">Provided for both kiosk and kitchen.</p>
+            <p class="weDoDesc">Provided for both kiosk and kitchen display.</p>
          </div>
          <div class="col-lg-3 col-md-6 px-4">
             <p class="weDoIcon"><i class="fas fa-plug"></i></i></p>
@@ -180,16 +206,56 @@
    <div id="pricing">
       <div class="container text-center">
          <h3>Pricing</h3>
-         <div class="row justify-content-center p-4">
+         <h4 class='text-danger'>We don’t charge you extra fees.</h4>
+         <h4 class='text-danger'>We are here to help, so let's make it simple.</h4>
+         <h4 class='text-danger'>And that’s it.</h4>
+         <div class="row justify-content-center pt-4 px-4">
             <div class="col-md-7 px-2 my-4 price text-center">
-               <h3 style="margin: 35px 0 -15px 0; text-decoration: underline;">$250/month*</h3>
+               <h3 style="margin: 35px 0 -15px 0; text-decoration: underline;">Package #1</h3>
                <p class="priceIcon pt-4">
                   <i class="far fa-window-maximize"> </i>
                   <span class="align-middle" style="font-size: 30px"><i class="fas fa-plus"> </i></span>
                   <i class="fas fa-window-maximize"> </i>
                </p>
+               <p class="priceText1 font-weight-bolder text-danger">
+                  $250/month*
+               </p>
                <p class="priceText1 pb-2">
                   1 Kiosk and 1 Kitchen
+               </p>
+               <p class="priceText2 py-4">
+                  You need more Kiosk?
+               </p>
+               <p class="priceText2 pb-4">
+                  Additional Kiosk for only $150/month/kiosk*
+               </p>
+               <p class="priceDesc py-3">
+                  *All <a href="#weDo">What We Do</a> included
+               </p>
+            </div>
+         </div>
+         <div class="row justify-content-center px-4">
+            <div class="col-md-7 px-2 my-4 price text-center">
+               <h3 style="margin: 35px 0 35px 0; text-decoration: underline;">Package #2</h3>
+               <p class="priceIconText mx-auto py-1">
+                  Package #1
+               </p>
+               <span class="align-middle" style="font-size: 30px"><i class="fas fa-plus"> </i></span>
+               <p class="priceIcon pt-0">
+                  <i class="fas fa-mobile-alt"></i>
+                  <i class="fas fa-laptop"></i>
+               </p>
+               <p class="priceText1 font-weight-bolder text-danger">
+                  $350/month*
+               </p>
+               <p class="priceText1">
+                  1 Kiosk, 1 Kitchen
+               </p>
+               <p class="priceText1">
+                  Mobile App
+               </p>
+               <p class="priceText1 pb-2">
+                  Web Ordering System
                </p>
                <p class="priceText2 py-4">
                   You need more Kiosk?
@@ -235,7 +301,7 @@
                   Guests come in, browse the menu, place the order, and pay – all on kiosk tablets
                </p>
                <p class="faqDesc text-justify">
-                  Orders go straight to the kitchen, where they will show in the kitchen app
+                  Orders go straight to the kitchen, where they will show in the kitchen display
                </p>
                <p class="faqDesc text-justify">
                   Orders are prepared and served to customers
