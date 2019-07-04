@@ -127,7 +127,8 @@ button:focus {
 
 #highlight {
   font-family: "Raleway", Helvetica, Arial, "Hiragino Kaku Gothic Pro", sans-serif;
-  color: #303f9f;
+  color: #fff;
+  background-color: #303f9f;
   padding: 60px 40px;
 }
 
@@ -143,8 +144,8 @@ button:focus {
 
 .highlightDesc2 {
   font-family: "Raleway", Helvetica, Arial, "Hiragino Kaku Gothic Pro", sans-serif;
-  font-size: 35px;  
-  font-weight: 700;
+  font-size: 30px;  
+  font-weight: 600;
   text-shadow: 0 0 5px #fff;
 }
 
@@ -161,29 +162,21 @@ button:focus {
 }
 
 #imagine {
+  font-family: "Raleway", Helvetica, Arial, "Hiragino Kaku Gothic Pro", sans-serif;
   color: #fff;
-  background-image: url("ket.png");
-  background-repeat:no-repeat;
-  background-position:right bottom;
   background-color: #303f9f;
 }
 
-.imagine {
-  font-family: "Raleway", Helvetica, Arial, "Hiragino Kaku Gothic Pro", sans-serif;
-  opacity: 1;
+.imagineText {
+  font-size: 28px;
 }
 
-.animOne {
-  animation-duration: 5s;
-  animation-delay: 10s;
-  animation-iteration-count: infinite;
+.imagineDesc {
+  font-size: 20px;
 }
 
-.animTwo {
-  display: inline-block;
-  animation-duration: 1s;
-  animation-delay: 15s;
-  animation-iteration-count: infinite;
+hr {
+  border: 0.5px solid #fff;
 }
 
 #exist {
@@ -291,7 +284,6 @@ button:focus {
 
 @media (max-width:992px) {
   #highlight {
-    /* height: auto; */
     padding: 40px 30px;
   }
   
@@ -304,15 +296,19 @@ button:focus {
   }
 
   .highlightDesc2 {
-    font-size: 23px;
+    font-size: 22px;
   }
 
   .headerDesc {
     padding-left: 30%;
   }
 
-  #imagine {
-    background-size: 75%;
+  .imagineText {
+    font-size: 23px;
+  }
+  
+  .imagineDesc {
+    font-size: 16px;
   }
 
   .weDoIcon {
@@ -326,7 +322,6 @@ button:focus {
   .priceText2 {
     font-size: 20px;
   }
-  
 }
 
 @media (max-width:576px) {
@@ -343,11 +338,19 @@ button:focus {
   }
 
   .highlightDesc2 {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .headerDesc {
     padding-left: 5%;
+  }
+
+  .imagineText {
+    font-size: 18px;
+  }
+  
+  .imagineDesc {
+    font-size: 14px;
   }
 
   .priceIcon {
