@@ -155,39 +155,27 @@ button:focus {
   color: #303f9f;
 }
 
-.headerDesc {
-  color: #303f9f;
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-  font-size: 20px;
-}
-
-#imagine {
+#product {
   font-family: "Raleway", Helvetica, Arial, "Hiragino Kaku Gothic Pro", sans-serif;
-  color: #fff;
-  background-color: #303f9f;
+  color: #303f9f;
+  background-color: #303f9f20;
 }
 
-.imagineText {
+#product .img-thumbnail {
+  background: transparent;
+  border-color: #303f9f;
+}
+
+.productText {
   font-size: 28px;
 }
 
-.imagineDesc {
+.productDesc {
   font-size: 20px;
 }
 
-hr {
-  border: 0.5px solid #fff;
-}
-
-#exist {
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-  color: #303f9f;
-  border-top: 2px solid #5174d1;
-  border-bottom: 2px solid #5174d1;
-}
-
-#exist h2 {
-  font-weight: normal;
+#product hr {
+  border: 0.5px solid #303f9f;
 }
 
 #weDo {
@@ -261,11 +249,10 @@ hr {
 }
 
 #faq {
-  background-color: #303f9f;
+  background-color: #303f9f50;
   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   padding: 80px 20px;
-  color: #fff;
-
+  color: #303f9f;
 }
 
 .faqText {
@@ -299,15 +286,11 @@ hr {
     font-size: 22px;
   }
 
-  .headerDesc {
-    padding-left: 30%;
-  }
-
-  .imagineText {
+  .productText {
     font-size: 23px;
   }
   
-  .imagineDesc {
+  .productDesc {
     font-size: 16px;
   }
 
@@ -345,11 +328,11 @@ hr {
     padding-left: 5%;
   }
 
-  .imagineText {
+  .productText {
     font-size: 18px;
   }
   
-  .imagineDesc {
+  .productDesc {
     font-size: 14px;
   }
 
@@ -359,8 +342,6 @@ hr {
 
   .priceIconText {
     font-size: 18px;
-    color: #fff;
-    background-color: #303f9f;
     width: 60%;
   }
 
